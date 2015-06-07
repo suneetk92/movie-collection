@@ -4,6 +4,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sk
+ * get Movies Name from Folder
+ */
 public class ReadFromFolder {
 	public static List<String> getMovieListFromFolder(String FILE_PATH_FOLDER) {
 		File[] files = null;

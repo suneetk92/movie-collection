@@ -3,6 +3,10 @@ package com.sk.app.movie_collection_database;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sk 
+ * Main method to invoke other classes
+ */
 public class App {
 	private static final String	FILE_PATH_EXCEL		= "D:/Users/Sk/Documents/MovieList.xlsx";
 	private static final String	FILE_PATH_FOLDER	= "H:/Movies";
@@ -13,11 +17,11 @@ public class App {
 			System.out.println(list1);
 			List<String> list2 = ReadFromFolder.getMovieListFromFolder(FILE_PATH_FOLDER);
 			System.out.println(list2);
-			List<MovieList> list3 = ParseFolderNameToMovieList.getMovieListFromFoldername(list2);
+			List<MovieList> list3 = ParseFolderNameToMovieList.getMovieListFromFolderName(list2);
 			System.out.println(list3);
 			List<MovieList> list4 = new ArrayList<MovieList>();
 			for (MovieList movieList : list3) {
-				if(!list1.contains(movieList)){
+				if (!list1.contains(movieList)) {
 					list4.add(movieList);
 				}
 			}

@@ -3,8 +3,12 @@ package com.sk.app.movie_collection_database;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sk 
+ * get Movies Name and Year from Folder Names
+ */
 public class ParseFolderNameToMovieList {
-	public static List<MovieList> getMovieListFromFoldername(List<String> folder) {
+	public static List<MovieList> getMovieListFromFolderName(List<String> folder) {
 		List<MovieList> list = new ArrayList<MovieList>();
 		for (String file : folder) {
 			MovieList movieList = new MovieList();

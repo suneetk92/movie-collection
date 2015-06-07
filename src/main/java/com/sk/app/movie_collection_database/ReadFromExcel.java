@@ -12,6 +12,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * @author Sk 
+ * get Movie List from Excel file
+ */
 public class ReadFromExcel {
 	public static List<MovieList> getMovieListFromExcel(String FILE_PATH_EXCEL) throws IOException {
 		List<MovieList> list = new ArrayList<MovieList>();

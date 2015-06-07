@@ -12,6 +12,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * @author Sk
+ * write Movies Name and Year in Excel
+ */
 public class WriteToExcel {
 	private static final WriteToExcel	INSTANCE	= new WriteToExcel();
 

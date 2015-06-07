@@ -1,5 +1,9 @@
 package com.sk.app.movie_collection_database;
 
+/**
+ * @author Sk 
+ * POJO class
+ */
 public class MovieList {
 	public MovieList() {
 		super();
